@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Garden Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            display: flex;
+            align-items: center; 
+            background-color: #f1f1f1;
+            font-size: 20px;
+            padding: 10px;
+            border-bottom: 3px solid #333; 
+        }
+
+        .header img {
+            width: 100px;
+            margin-right: 15px; 
+        }
+
+        .header h1 {
+            margin-bottom: 5px;
+        }
+
+        .menu {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .menu button {
+            background-color: #333;
+            color: white;
+            font-size: 18px; 
+            padding: 15px 30px; 
+            margin: 10px;
+            border: none;
+            border-radius: 10px; 
+            cursor: pointer;
+        }
+
+        .menu button:hover {
+            background-color: #575757;
+        }
+
+        .table-container {
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #dddddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 3px solid #333;
+            
+        }
+
+        .footer a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: none; 
+            height: 3px; 
+            background-color: #333; 
+            margin: 10px 0; 
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="lif.png" alt="Logo">
+        <div>
+            <h1>The Garden Company</h1>
+            <p>Helping you help your gardens grow since 1975</p>
+        </div>
+    </div>
+
+    <div class="menu">
+        <button onclick="window.location.href='home.html'">Home</button>
+        <button onclick="window.location.href='tip.html'">Tip & Tricks</button>
+        <button onclick="window.location.href='fix.html'">Fix Problems</button>
+        <button onclick="window.location.href='products.html'">Products</button>
+        <button onclick="window.location.href='about.html'">About Us</button>
+        <button onclick="window.location.href='contact.html'">Contact Us</button>
+    </div>
+
+    <div class="table-container">
+        <table>
+            <th colspan="4">Product Listing (Partial)</th>
+            <tr>
+                <th>Item #</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>In Stock?</th>
+            </tr>
+            <tr>
+                <td>CH348471</td>
+                <td>Sampson & Company All-Natural Pesticide</td>
+                <td>$14.99</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>CH548291</td>
+                <td>Sampson & Company All-Natural Herbicide</td>
+                <td>$14.99</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>CH543295</td>
+                <td>Vickers and Vickers Fertilizer Sticks</td>
+                <td>$5.89</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>CH548570</td>
+                <td>Appleton Acres Big Sack of Bulbs, Tulips</td>
+                <td>$22.50</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>CH548571</td>
+                <td>Appleton Acres Big Sack of Bulbs, Daffodils</td>
+                <td>$22.50</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>CH548572</td>
+                <td>Appleton Acres Big Sack of Bulbs, Hyacinths</td>
+                <td>$22.50</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>CH548573</td>
+                <td>Appleton Acres Big Sack of Bulbs, Crocus</td>
+                <td>$22.50</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>CH545392</td>
+                <td>Jackson and Perkins Climbing Rosebushes</td>
+                <td>$12.99</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>CH548577</td>
+                <td>Caston Create-Your-Own Paving Stone Kit</td>
+                <td>$19.95</td>
+                <td>No</td>
+            </tr>
+            <td colspan="4">Note: In-stock items are available for pickup or delivery. Please visit our store for special sale prices on some items.</td>
+        </table>
+        
+        
+    </div>
+
+    <div class="footer">
+        <p><a href="#">Home</a> | <a href="#">Tips and Tricks</a> | <a href="#">Problem-Solving</a> | <a href="#">Products</a> | <a href="#">About Our Store</a> | <a href="#">Contact Us</a></p>
+        <hr>
+        <p>Copyright © 2012 The Garden Company™ <br> No material may be reproduced without written permission</p>
+    </div>
+
+</body>
+</html>
